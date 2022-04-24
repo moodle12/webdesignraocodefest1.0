@@ -1,0 +1,404 @@
+body{
+	background-color: #f5d9d5;
+	font-family: "Nunito",sans-serif;
+
+}
+.blurb h2{
+	color: #EA1C2C;
+	font-weight: 100;
+	font-size: 2.5rem;
+
+}
+.blurb p{
+	color: #f498b8;
+	font-weight: 100;
+	font-size: 1.125rem;
+	line-height: 2;
+
+}
+.content{
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+.lead{
+    font-size: xx-large;
+    color: brown;
+    font-weight: 500;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.top
+{
+    color: coral;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 200px;
+}
+marquee
+{
+    background-color: blueviolet;
+}
+
+.s1
+{
+    font-size: 100px;
+    color: blue;
+}
+.s2
+{
+    font-size: 100px;
+    color: yellow;
+}
+.cent{
+    align-items: center;
+}
+.footer
+{
+    background-color:black;
+    color: #73AD21;
+    justify-items: end;
+    align-content: flex-end;
+    padding-left: 600px;
+}
+
+.footer a{
+    color:#fff38e;
+}
+.footer a:hover{
+    font-size: larger;
+}
+.fz
+{
+        position: relative;
+        bottom: 0;
+        right: 100;
+        width: 300px;
+        border: 3px solid #73AD21;
+      
+}
+#logo:hover{
+    height: 30%;
+    width: 30%;
+}
+#contact
+{
+    background-color: coral;
+    
+}
+#icon
+{
+    height: 30%;
+    width: 30%;
+}
+#header {
+    /* fallback for old browsers */
+    background: #fbc2eb;
+  
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(251, 194, 235, 0.5), rgba(166, 193, 238, 0.5));
+  
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(251, 194, 235, 0.5), rgba(166, 193, 238, 0.5))
+  }
+/*.parallax {
+    /* The image used */
+   /* background-image: url("2.jpg");
+  
+    /* Set a specific height */
+  /*  min-height: 500px;
+  
+    /* Create the parallax scrolling effect */
+   /* background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }*/
+
+#im{
+    height: 700px;
+    width: 700px;
+    background-image: url("2.jpg");
+  
+    /* Set a specific height */
+    min-height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#im2
+{
+    width: 1700px;
+    height: 500px;
+}
+
+#mainnav{
+	font-size: 1.5rem;
+	font-weight: 100;
+}
+#mainnav .nav-link{
+	color: white;
+
+}
+#mainnav .nav-link:hover{
+	color: #EA1C2C;
+
+}
+#mainnav .navbar-brand{
+	color:#EA1C2C ;
+	font-size: 1.5rem;
+
+}
+#headingGroup span {
+    color: #EA1C2C;
+}
+
+#headingGroup h1 {
+    font-weight: 100;
+    font-size: 4rem;
+}
+.navbar.scrolled {
+    background: rgb(222,192,222);
+    transition: background 500ms;
+}
+
+
+
+
+@media (max-width: 1200px) {
+    #headingGroup h1 {
+        font-weight: 100;
+        font-size: 3rem;
+    }
+    .blurb h2 {
+        font-size: 2rem;
+    }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&text=%c2%a1Hola!');
+/* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+} */
+section .cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #095a55;
+}
+section .cont
+{
+    content: '';
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: #fff38e;
+}
+.container{
+    position: relative;
+    min-width: 1100px;
+    min-height: 550px;
+    display: flex;
+    z-index: 1000;
+    /* background: #fff; */
+}
+/* .card :hover
+{
+    height: 200px;
+    width: 200px
+} */
+.test
+{
+    color: #09d48b;
+    background-color: #0f3959;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+    align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.i{
+    color: white;
+}
+
+.container .contactinfo
+{
+    position: absolute;
+    top: 40px;
+    width: 350px;
+    height: 450px;
+    background: #095a55;
+    z-index: 1;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 20px 25px rgba(0,0,0,0.15);
+}
+.container .contactinfo h2
+{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+
+}
+.container .contactinfo ul.Info
+{
+    position: relative;
+    margin :20px 0;
+}
+.container .contactinfo ul.Info li
+{
+    position: relative;
+    list-style: none;
+    display: flex;
+    margin: 20px 0;
+    cursor: pointer;
+    align-items: flex-start;
+}
+.container .contactinfo ul.Info li span:nth-child(1)
+{
+    width: 30px;
+    min-width: 30px;
+
+}
+.container .contactinfo ul.Info li span:nth-child(1) img
+{
+    max-width: 100%;
+    filter: invert(1);
+}
+.container .contactinfo ul.Info li span:nth-child(2)
+{
+    color: #fff;
+    margin-left: 10px;
+    font-weight: 300;
+}
+.container .contactinfo ul.sci
+{
+    position: relative;
+    display: flex ;
+
+}
+.container .contactinfo ul.sci li
+{
+    list-style: none;
+    margin-right: 15px;
+}
+.container .contactinfo ul.sci li a
+{
+    text-decoration: none;
+}
+.container .contactinfo ul.sci li a img
+{
+    filter: invert(1);
+}
+
+.container .contactform
+{
+    position:absolute;
+    padding: 70px 50px;
+    padding-left: 250px;
+    margin-left: 180px;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    align-items: center;
+    box-shadow: 0 50px 50px rgba(0,0,0,0.25);
+}
+.container .contactform h2
+{
+    color: #0f3959;
+    font-size: 24px;
+    font-weight: 500;
+}
+.container .contactform .formBox
+{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 30px;
+}
+.container .contactform .formBox .inputBox
+{
+    position: relative;
+    margin: bottom 35px; ;
+}
+.container .contactform .formBox .inputBox.w50
+{
+    width: 47%;
+}
+.container .contactform .formBox .inputBox.w100
+{
+    width: 100%;
+}
+.container .contactform .formBox .inputBox input,
+.container .contactform .formBox .inputBox textarea
+{
+    width: 100%;
+    resize: none;
+    padding: 5px 0;
+    font-size: 18px;
+    font-weight: 300;
+    color: #333;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #777;
+}
+.container .contactform .formBox .inputBox textarea 
+{
+    height: 120px;
+}
+.container .contactform .formBox .inputBox span
+{
+    position: absolute;
+    left: 0;
+    padding: 5px;
+    pointer-events: none;
+    font-size: 18px;
+    font-weight: 300;
+    transition: 0.3s;
+}
+.container .contactform .formBox .inputBox input:focus ~span,
+.container .contactform .formBox .inputBox input:focus ~span,
+.container .contactform .formBox .inputBox textarea:valid~span,
+.container .contactform .formBox .inputBox textarea:valid~span
+{
+        transform: translateY(-20px);
+        font-size: 12px;
+         font-weight: 400;
+         letter-spacing: 1px;
+         color: #095a55;
+         font-weight: 500;
+}
+.container .contactform .formBox .inputBox input[type="submit"]
+{
+    position: relative;
+    cursor: pointer;
+    background: #095a55;
+    color: #fff;
+    border: none;
+    max-width: 150px;
+    padding: 12px;
+}
+.container .contactform .formBox .inputBox input[type="submit"]:hover
+{
+    background: #09d48b;
+}
+@media(max-width:2000px)
+{
+        .container
+        {
+         width: 90%;
+        min-width: auto;
+        margin: 20px;
+}
+        }
